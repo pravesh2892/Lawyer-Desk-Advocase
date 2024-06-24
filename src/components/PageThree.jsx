@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import PageOne from "./PageOne";
-import left from "../assets/left-arrow-circle-svgrepo-com.svg";
+import { IoIosArrowBack } from "react-icons/io";
 import svg from "../assets/file-file-type-svgrepo-com.svg";
 export default function PageThree() {
   const [activeTab, setActiveTab] = useState(5);
@@ -31,13 +31,10 @@ export default function PageThree() {
           style={{ height: "600px" }}
           className="w-s  bg-white rounded-md p-4"
         >
-          <div className="flex items-end">
-            <div className="flex-grow"></div>
-            <img
-              className="w-6 bg-gray-300 hover:bg-blue-400 rounded-lg"
+          <div className="flex items-end gap-2">
+            <IoIosArrowBack
+              className="w-6 h-6 text-black-300 bg-gray-300 hover:bg-blue-400 rounded-lg cursor-pointer"
               onClick={handleBackToHome}
-              src={left}
-              alt="not found"
             />
             <button
               onClick={handleBackToHome}

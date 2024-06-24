@@ -8,7 +8,7 @@ import {
 import { FaHome, FaNewspaper, FaPeopleArrows } from "react-icons/fa";
 import { BsChatSquareText } from "react-icons/bs";
 import { IoIosPeople } from "react-icons/io";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FaRegBell } from "react-icons/fa";
 import svg from "../assets/setting-5-svgrepo-com.svg";
 import logo from "../assets/logo.png";

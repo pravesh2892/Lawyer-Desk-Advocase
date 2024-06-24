@@ -220,7 +220,7 @@ export default function Home() {
             <div className="flex-grow"></div>
             <button
               onClick={handleNext}
-              className="px-16 rounded-full text-xs font-bold text-white py-1 bg-gradient-to-r to-[#025BD4] from-blue-500 hover:from-blue-400 hover:to-blue-300"
+              className="px-16 py-2 rounded-full text-xs font-bold text-white py-1 bg-gradient-to-r to-[#025BD4] from-blue-500 hover:from-blue-400 hover:to-blue-300"
             >
               Start
             </button>
