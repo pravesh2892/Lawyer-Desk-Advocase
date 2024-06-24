@@ -10,7 +10,7 @@ import { BsChatSquareText } from "react-icons/bs";
 import { IoIosPeople } from "react-icons/io";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FaRegBell } from "react-icons/fa";
-import svg from "../assets/setting-5-svgrepo-com.svg";
+import setting from "../assets/setting-5-svgrepo-com.svg";
 import logo from "../assets/logo.png";
 import user from "../assets/user.png";
 
@@ -73,7 +73,7 @@ export default function Navbar() {
                   </div>
                 </div>
 
-                <img src={svg} alt="not found" className="w-8" />
+                <img src={setting} alt="not found" className="w-8 " />
                 <div className="absolute inset-y-0 right-0 flex items-center  mr-24 pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   <button
                     type="button"
@@ -81,13 +81,12 @@ export default function Navbar() {
                   >
                     <span className="absolute -inset-1.5" />
                     <span className="sr-only">View notifications</span>
-                    <FaRegBell className="h-5 w-5" aria-hidden="true" />
+                    <FaRegBell className="h-4 w-4" aria-hidden="true" />
                   </button>
 
-                  {/* Profile dropdown */}
-                  <Menu as="div" className="relative ml-3">
+                  <Menu as="div" className="relative ml-10">
                     <div>
-                      <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 ml-[60px]">
+                      <MenuButton className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 ">
                         <span className="absolute -inset-1.5" />
                         <span className="sr-only">Open user menu</span>
                         <img
