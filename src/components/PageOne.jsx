@@ -123,15 +123,15 @@ export default function Home() {
             <div className="flex items-center pt-4 justify-center">
               <img className="w-4" src={image4} alt="not found" />
             </div>
-            <div className="flex items-center mb-4">
-              <span className="flex-grow text-sm font-bold ml-12">
+            <div className="flex items-center mb-4 ">
+              <span className="flex-grow text-sm font-bold ml-12 text-gray-500">
                 Drag drop here or click here to upload
               </span>
               <label
                 htmlFor="file-upload"
-                className="flex items-center mr-32 justify-center text-blue-500 underline cursor-pointer hover:text-blue-600 transition duration-300 ml-2"
+                className="flex items-center mr-32 justify-center text-blue-500 underline cursor-pointer hover:text-blue-600 transition duration-300 "
               >
-                Upload file
+                Upload a file
                 <input
                   id="file-upload"
                   type="file"
@@ -142,7 +142,7 @@ export default function Home() {
               </label>
             </div>
             <div className="flex ml-44 flex-col">
-              <p className="text-xs text-gray-700 font-bold mt-2">
+              <p className="text-xs text-gray-500 font-bold mt-2">
                 Maximum uploads: 1
               </p>
               <p className="text-xs text-gray-400 font-bold mt-2">
