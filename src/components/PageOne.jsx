@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import svg from "../assets/upload-svgrepo-com.svg";
-import svg2 from "../assets/ai-file-type-svgrepo-com.svg";
-import svg3 from "../assets/psd-file-type-svgrepo-com.svg";
-import rst from "../assets/align-two-columns-svgrepo-com.svg";
+import image4 from "../assets/upload-svgrepo-com.svg";
+import image2 from "../assets/ai-file-type-svgrepo-com.svg";
+import image3 from "../assets/psd-file-type-svgrepo-com.svg";
+import image1 from "../assets/align-two-columns-svgrepo-com.svg";
 
 import PageTwo from "./PageTwo";
 export default function Home() {
@@ -109,7 +109,7 @@ export default function Home() {
 
         <div className="flex-grow bg-white rounded-md p-4">
           <div className="flex">
-            <img className="w-8" src={rst} alt="not found" />
+            <img className="w-8" src={image1} alt="not found" />
             <h2 className="text-md pt-1 text-gray-700 font-bold">
               Get Complete about case from AI driven research assistance
             </h2>
@@ -121,7 +121,7 @@ export default function Home() {
 
           <div className="border-dashed bg-gray-100 border-2 border-gray-400 rounded-lg p-4">
             <div className="flex items-center pt-4 justify-center">
-              <img className="w-4" src={svg} alt="not found" />
+              <img className="w-4" src={image4} alt="not found" />
             </div>
             <div className="flex items-center mb-4">
               <span className="flex-grow text-sm font-bold ml-12">
@@ -157,7 +157,7 @@ export default function Home() {
           </div>
 
           <div className="border-2 mb-4 border-gray-100 bg-gray-100 rounded-lg px-2 flex items-center">
-            <img src={svg2} alt="not found" className="w-6" />
+            <img src={image2} alt="not found" className="w-6" />
             <p className="text-sm font-bold text-gray-500">Case document.pdf</p>
             <div className="ml-auto pb-1">
               <svg
@@ -177,7 +177,7 @@ export default function Home() {
           </div>
 
           <div className="border-2 mb-4 border-gray-100 bg-gray-100 rounded-lg px-2 flex items-center">
-            <img src={svg3} alt="not found" className="w-6" />
+            <img src={image3} alt="not found" className="w-6" />
             <p className="text-sm font-bold text-gray-500">Case document.pdf</p>
             <div className="ml-auto pb-1">
               <svg
@@ -197,7 +197,7 @@ export default function Home() {
           </div>
 
           <div className="border-2 mb-4 border-gray-100 bg-gray-100 rounded-lg px-2 flex items-center">
-            <img src={svg3} alt="not found" className="w-6" />
+            <img src={image3} alt="not found" className="w-6" />
             <p className="text-sm font-bold text-gray-500">Case document.pdf</p>
             <div className="ml-auto pb-1">
               <svg
